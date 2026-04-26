@@ -1,0 +1,24 @@
+These are cheats for RPCS3 that can be used if the patches provided should not work.
+
+IMPORTANT: these cheats are temporary. You must re-apply them every time you launch the game.
+
+HOW TO INSTALL:
+- in RPCS3 with your game opened, head over to Manage -> Cheats
+- Copy the exact code block for your specific game version from the bottom of this file.
+- In the Cheats window, Right-click anywhere and select "Import Cheats".
+- Once imported successfully, you will see two new entries. You need to edit their values to tweak the camera. The recommended settings are as follows:
+Spring Damper: set the value to 35
+Max Angle: set the value to 75
+- Make sure to press on "Apply" and the camera will finally be loosened
+
+CHEAT CODES
+
+For Gran Turismo 5 [BCUS98114] - Version 02.11 
+
+Gran Turismo 5@@@Spring Damper@@@8@@@25157444@@@@@@^^^Gran Turismo 5@@@Max Angle@@@8@@@25157460@@@@@@^^^
+
+
+For Gran Turismo®6 [NPEA00502] - Version 1.05
+
+Gran Turismo®6@@@Spring Damper@@@8@@@23280548@@@@@@^^^Gran Turismo®6@@@Max Angle@@@8@@@23280564@@@@@@^^^
+
