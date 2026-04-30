@@ -7,8 +7,8 @@ HOW TO INSTALL:
 - Copy the exact code block for your specific game version from the bottom of this file.
 - In the Cheats window, Right-click anywhere and select "Import Cheats".
 - Once imported successfully, you will see two new entries. You need to edit their values to tweak the camera. The recommended settings are as follows:
-Spring Damper: set the value to 35
-Max Angle: set the value to 90
+Spring Damper: set the value to 90
+Max Angle: set the value to 35
 - Make sure to press on "Apply" and the camera will finally be loosened
 
 CHEAT CODES
