@@ -10,7 +10,7 @@ PPU-8910736d1c2992d6f395a9f5e3c91b373245139b:
     Configurable Values:
       "Spring Damper":
         Type: double_range
-        Value: 75.0
+        Value: 90.0
         Min: 0.0
         Max: 300.0
       "Max Angle":
@@ -35,7 +35,7 @@ PPU-d73f342bf28ee016ef3d0ccb309b1acb03d8ecce:
     Configurable Values:
       "Spring Damper":
         Type: double_range
-        Value: 90
+        Value: 90.0
         Min: 0.0
         Max: 300.0
       "Max Angle":
@@ -44,7 +44,6 @@ PPU-d73f342bf28ee016ef3d0ccb309b1acb03d8ecce:
         Min: 0.0
         Max: 100.0
     Patch:
-      # NOP stfs to prevent in-game parameter overwrite
       - [be32, 0x00483D74, 0x60000000]
       - [be32, 0x00483D8C, 0x60000000]
       - [be32, 0x004846CC, 0x60000000]
@@ -65,11 +64,11 @@ PPU-80f0d67b29d3d17ac885a309a3fc4cd8dcf50658:
       "Gran Turismo 6":
         NPEA00502: [ 01.22 ]
     Author: "Edo"
-    Notes: "Tweaks the chase camera to be a little less static"
+    Notes: "Tweaks the chase camera to be a little less static. Vanilla values are 300/30"
     Configurable Values:
       "Spring Damper":
         Type: double_range
-        Value: 75.0
+        Value: 90.0
         Min: 0.0
         Max: 300.0
       "Max Angle":
@@ -77,7 +76,17 @@ PPU-80f0d67b29d3d17ac885a309a3fc4cd8dcf50658:
         Value: 35.0
         Min: 0.0
         Max: 100.0
-    Patch Version: 0.1
+    Patch Version: 1.2
     Patch:
-      - [ bef32, 0x016DDFF4, "Spring Damper" ]
-      - [ bef32, 0x016DE004, "Max Angle" ]
+      - [be32, 0x002F6B80, 0x60000000]
+      - [be32, 0x002F6B84, 0x60000000] 
+      - [be32, 0x002F71B0, 0x60000000]
+      - [be32, 0x002F71B8, 0x60000000]
+      - [be32, 0x016DDFF0, 0x41F00000]
+      - [bef32, 0x016DDFF4, "Spring Damper"]
+      - [be32, 0x016DDFF8, 0x43480000]
+      - [be32, 0x016DDFFC, 0x00000000]
+      - [be32, 0x016DE000, 0x41200000]
+      - [bef32, 0x016DE004, "Max Angle"]
+      - [be32, 0x016DE008, 0x41A00000]
+      - [be32, 0x016DE00C, 0x00000000]
