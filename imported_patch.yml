@@ -20,10 +20,8 @@ PPU-8910736d1c2992d6f395a9f5e3c91b373245139b:
         Max: 100.0
     Patch Version: 0.1
     Patch:
-      # Inject configurable float directly (bef32)
       - [ bef32, 0x01633BA4, "Spring Damper" ]
       - [ bef32, 0x01633BB4, "Max Angle" ]
-      Version: 1.2
 
 PPU-d73f342bf28ee016ef3d0ccb309b1acb03d8ecce:
   "Looser Chase Camera":
@@ -81,6 +79,5 @@ PPU-80f0d67b29d3d17ac885a309a3fc4cd8dcf50658:
         Max: 100.0
     Patch Version: 0.1
     Patch:
-      # Inject configurable float directly (bef32)
       - [ bef32, 0x016DDFF4, "Spring Damper" ]
       - [ bef32, 0x016DE004, "Max Angle" ]
