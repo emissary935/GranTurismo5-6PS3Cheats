@@ -54,8 +54,8 @@ Choose between installing the `.ncl` files on a USB flash drive or directly into
 * Launch **ArtemisPS3** from the XMB (make sure the USB is inserted if you used Method A).
 * Select your newly installed codes from the Artemis list.
 * Press **✖ (Cross)** on `Start` in the main menu.
-* From the XMB, launch your game (or launch your homebrew to mount the game first).
-* 
+* Launch your game.
+
 **4. Attaching the Cheats In-Game**
 * When the game has launched, a notification will appear in the corner saying: `Artemis PS3 / Start to Attach`.
 * Once you are ready to use your codes in the game, open the in-game XMB by pressing the **PS button** on your controller.
