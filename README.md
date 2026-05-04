@@ -2,10 +2,6 @@
 
 A repository containing a collection of cheats and memory patches for Gran Turismo 5 and 6. 
 
-🎥 **[Video showcase of the patch in action](https://www.youtube.com/watch?v=ndvbrKmkF5Q)**
-
----
-
 ## Usage on RPCS3 (Emulator)
 
 ### Standard Method (.yml patches)
@@ -64,3 +60,7 @@ Choose between installing the `.ncl` files on a USB flash drive or directly into
 
 **5. Detaching and Stopping**
 * Enter the in-game XMB and **hold the SELECT button** if you wish to detach Artemis and stop the constant writing.
+
+---
+
+**[Video showcase of the patch in action](https://www.youtube.com/watch?v=ndvbrKmkF5Q)**
