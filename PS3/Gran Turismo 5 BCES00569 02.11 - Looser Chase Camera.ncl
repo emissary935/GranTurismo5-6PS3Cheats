@@ -1,8 +1,19 @@
-Gran Turismo 5 Looser Chase Camera
-0
+Gran Turismo 5 BCES00569 02.11 Looser Chase Camera
+1
 **DAMPER - Stock: 300
-2 017ff36b 90
-
+2 017FDF44 90
 **MAX ANGLE - Stock: 30
-2 017ff370 35
+2 017FDF54 35
+
+**Fix for look back
+0 00488DF8 38
+0 00488DF9 00
+0 00488DFA 00
+0 00488DFB 00
+
+**Fix for look back
+0 00488E00 60
+0 00488E01 00
+0 00488E02 00
+0 00488E03 00
 #

@@ -92,3 +92,39 @@ PPU-80f0d67b29d3d17ac885a309a3fc4cd8dcf50658:
       - [bef32, 0x016DE004, "Max Angle"]
       - [be32, 0x016DE008, 0x41A00000]
       - [be32, 0x016DE00C, 0x00000000]
+
+PPU-7a5ee7bc2fef9566dd80e35893fe2c5571197726:
+  "Looser Chase Camera":
+    Games:
+      "Gran Turismo 5":
+        BCES00569: [02.11]
+    Author: "Edo"
+    Patch Version: 1.2
+    Group: ""
+    Notes: "Tweaks the chase camera to be a little less static. Vanilla values are 300/30"
+    Configurable Values:
+      "Spring Damper":
+        Type: double_range
+        Value: 90.0
+        Min: 0.0
+        Max: 300.0
+      "Max Angle":
+        Type: double_range
+        Value: 35.0
+        Min: 0.0
+        Max: 100.0
+    Patch:
+      - [be32, 0x00483D74, 0x60000000]
+      - [be32, 0x00483D8C, 0x60000000]
+      - [be32, 0x004846CC, 0x60000000]
+      - [be32, 0x004846D8, 0x60000000]
+      - [be32, 0x017FDF40, 0x41F00000]
+      - [bef32, 0x017FDF44, "Spring Damper"]
+      - [be32, 0x017FDF48, 0x43480000]
+      - [be32, 0x017FDF4C, 0x00000000]
+      - [be32, 0x017FDF50, 0x41200000]
+      - [bef32, 0x017FDF54, "Max Angle"]
+      - [be32, 0x017FDF58, 0x41A00000]
+      - [be32, 0x017FDF5C, 0x00000000]
+      - [be32, 0x00488df8, 0x38000000]
+      - [be32, 0x00488e00, 0x60000000]
