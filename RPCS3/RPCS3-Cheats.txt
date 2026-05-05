@@ -17,7 +17,7 @@ Loose Chase Camera - For Gran Turismo®6 [NPEA00502] - Version 1.05
 
 Gran Turismo®6@@@Spring Damper@@@8@@@23280548@@@@@@^^^Gran Turismo®6@@@Max Angle@@@8@@@23280564@@@@@@^^^
 
-Global FOV Multiplier - For Gran Turismo 5 [BCUS98114] - Version 02.11 
+Global FOV Multiplier - For Gran Turismo 5 [BCUS98114] & Gran Turismo 5 [BCES00569] - Version 02.11 
 
 Gran Turismo 5@@@Global FOV Multiplier@@@8@@@25046432@@@@@@^^^
 
