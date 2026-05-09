@@ -1,6 +1,6 @@
 Version: 1.2
 
-PPU-8910736d1c2992d6f395a9f5e3c91b373245139b:
+PPU-455eb1752a4ec0f104df4f0703237c23b3217a2d:
   "Looser Chase Camera":
     Games:
       "Gran Turismo 6":
@@ -18,10 +18,20 @@ PPU-8910736d1c2992d6f395a9f5e3c91b373245139b:
         Value: 35.0
         Min: 0.0
         Max: 100.0
-    Patch Version: 0.1
+    Patch Version: 1.2
     Patch:
-      - [ bef32, 0x01633BA4, "Spring Damper" ]
-      - [ bef32, 0x01633BB4, "Max Angle" ]
+      - [be32, 0x002C7DCC, 0x60000000]
+      - [be32, 0x002C7DE4, 0x60000000] 
+      - [be32, 0x002C8598, 0x60000000]
+      - [be32, 0x002C85A4, 0x60000000]
+      - [be32, 0x01633BA0, 0x41F00000]
+      - [bef32, 0x01633BA4, "Spring Damper"]
+      - [be32, 0x01633BA8, 0x43480000]
+      - [be32, 0x01633BAC, 0x00000000]
+      - [be32, 0x01633BB0, 0x41200000]
+      - [bef32, 0x01633BB4, "Max Angle"]
+      - [be32, 0x01633BB8, 0x41A00000]
+      - [be32, 0x01633BBC, 0x00000000]
 
 PPU-d73f342bf28ee016ef3d0ccb309b1acb03d8ecce:
   "Looser Chase Camera":
@@ -64,11 +74,11 @@ PPU-d73f342bf28ee016ef3d0ccb309b1acb03d8ecce:
       - [be32, 0x00482ff4, 0x60000000] # NOP stb
       
       
-PPU-80f0d67b29d3d17ac885a309a3fc4cd8dcf50658:
+PPU-638ef307e2b35d593f599efec0dc0c37059a984b:
   "Looser Chase Camera":
     Games:
       "Gran Turismo 6":
-        NPEA00502: [ 01.22 ]
+        BCES01893: [ 01.22 ]
     Author: "Edo"
     Notes: "Tweaks the chase camera to be a little less static. Vanilla values are 300/30"
     Configurable Values:
