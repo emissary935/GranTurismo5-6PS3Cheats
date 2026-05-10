@@ -40,7 +40,7 @@ PPU-d73f342bf28ee016ef3d0ccb309b1acb03d8ecce:
       - [be32, 0x00482fdc, 0x38000000] # li r0, 0
       - [be32, 0x00482ff4, 0x60000000] # NOP stb
       
- PPU-7a5ee7bc2fef9566dd80e35893fe2c5571197726:
+PPU-7a5ee7bc2fef9566dd80e35893fe2c5571197726:
   "Looser Chase Camera":
     Games:
       "Gran Turismo 5":
@@ -113,6 +113,8 @@ PPU-638ef307e2b35d593f599efec0dc0c37059a984b:
       - [bef32, 0x016DE004, "Max Angle"]
       - [be32, 0x016DE008, 0x41A00000]
       - [be32, 0x016DE00C, 0x00000000]
+      
+      
 
 PPU-455eb1752a4ec0f104df4f0703237c23b3217a2d:
   "Looser Chase Camera":
@@ -181,7 +183,7 @@ PPU-6ac472e1f334f54ec4753cde9e8e1515bfab4d17:
       - [be32, 0x016DE008, 0x41A00000]
       - [be32, 0x016DE00C, 0x00000000]
       
- PPU-d93a41467fce046bfbfb9648faee9e4e7963518d:
+PPU-d93a41467fce046bfbfb9648faee9e4e7963518d:
   "Looser Chase Camera":
     Games:
       "Gran Turismo 6":
