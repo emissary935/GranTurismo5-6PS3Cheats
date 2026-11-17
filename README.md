@@ -64,7 +64,6 @@ Choose between installing the `.ncl` files on a USB flash drive or directly into
 ---
 
 ## Credits
-
 Thanks to TheAdmiester, Erik and pappapatu for their work on some of the patches.
 
-**[Video showcase of the patch in action](https://www.youtube.com/watch?v=ndvbrKmkF5Q)**
+**[Video showcase of the Looser Chase Camera patch in action](https://www.youtube.com/watch?v=ndvbrKmkF5Q)**
