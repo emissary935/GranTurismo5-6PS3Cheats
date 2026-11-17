@@ -1,0 +1,4 @@
+Gran Turismo 5 BCUS98114 02.11 - 1920x1080 Resolution in 1080p Mode
+1
+0 008B0F80 39200780
+#
